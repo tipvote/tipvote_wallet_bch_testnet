@@ -1,0 +1,13 @@
+# wallet - btc test
+#* * * * * /home/droid/wallet_btc_test/venv/bin/python3 /home/droid/wallet_btc_test/wallet_checkincomming.py
+
+#*/10 * * * * /home/droid/wallet_btc_test/venv/bin/python3 /home/droid/wallet_btc_test/wallet_generateaddresses.py
+
+#*/2 * * * * /home/droid/wallet_btc_test/venv/bin/python3 /home/droid/wallet_btc_test/wallet_send.py
+
+#*/5 * * * * /home/droid/wallet_btc_test/venv/bin/python3 /home/droid/wallet_btc_test/wallet_watchsent.py
+
+#*/30 * * * * /home/droid/wallet_btc_test/venv/bin/python3 /home/droid/wallet_btc_test/wallet_deletewalletwork.py
+
+#*/30 * * * * /home/droid/wallet_btc_test/venv/bin/python3 /home/droid/wallet_btc_test/wallet_getlatestfee.py
+
